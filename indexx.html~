@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Bootstrap Datepicker Demo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="angular-bootstrap-datepicker.css" />
+<script src="jquery.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="angular-bootstrap-datepicker.js" charset="utf-8"></script>
+     <script src="myapp.js"></script>
+</head>
+
+
+
+
+<body data-ng-app="demo">
+    <div>
+        <div data-ng-controller="AppCtrl">
+            <input id="datepicker" type="text" data-ng-datepicker data-ng-options="datepickerOptions" data-ng-model="date">
+            
+        </div>
+    </div>
+
+</body>
+</head>
+</html>
